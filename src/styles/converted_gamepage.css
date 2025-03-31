@@ -1,0 +1,197 @@
+/* GamePage.css */
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 30px 0 30px;
+    max-width: 1700px;
+    margin: 0 auto;
+  }
+  
+  .headerContainer img {
+    height: 120px;
+    cursor: pointer;
+    transition: transform 0.6s;
+  }
+  
+  .headerContainer img:hover {
+    transform: scale(1.1);
+  }
+  
+  .score {
+    flex-shrink: 0;
+    padding: 15px;
+    margin-left: 40px;
+    background-color: var(--darkBlue);
+    color: white;
+    font-size: 24px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px #424242, -0px -5px 15px #424242;
+  }
+  
+  .score div:first-child {
+    margin-bottom: 10px;
+  }
+  
+  .playGround {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 40px 0 40px;
+    margin: 30px 0 30px 0;
+  }
+  
+  .cardSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    aspect-ratio: 1 / 1.8;
+    width: 220px;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    cursor: pointer;
+  }
+  
+  .card.flipped {
+    transform: rotateY(180deg);
+  }
+  
+  .tilt {
+    height: 100%;
+    transform-style: preserve-3d;
+  }
+  
+  .characterHolder, 
+  .cardFace {
+    background-size: contain;
+    background-position: center;
+    border-radius: 25px;
+    background-repeat: no-repeat;
+  }
+  
+  .cardFace {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 7px 8px 10px 8px;
+    flex-shrink: 0;
+    /* background-image: url(../assets/img/test-2.jpg); */
+    color: white;
+    font-size: 22px;
+  }
+  
+  .characterHolder {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .cardBack {
+    height: 100%;
+    background: url(../assets/img/test-2.jpg);
+    backface-visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    transform: rotateY(180deg);
+  }
+  
+  .name {
+    margin-top: 5px;
+  }
+  
+  .remainIndicator {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .win {
+    position: absolute;
+    aspect-ratio: 1.82 / 1;
+    width: 800px;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../assets/img/jujutsu-kaisen-season-2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    box-shadow: 0px 5px 20px #113661, -0px -5px 20px #113661;
+  }
+  
+  .win div {
+    margin-top: 25px;
+    font-size: 40px;
+    padding: 15px 30px 15px 30px;
+    background-color: rgb(50, 104, 165);
+    color: white;
+    border-radius: 20px;
+  }
+  
+  .win button {
+    margin-bottom: 25px;
+    font-size: 26px;
+    padding: 12px 20px 12px 20px;
+    border-radius: 20px;
+  }
+  
+  .lose {
+    position: absolute;
+    aspect-ratio: 1.82 / 1;
+    width: 800px;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../assets/img/lost-test1.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    box-shadow: 0px 5px 20px #611111, -0px -5px 20px #611111;
+  }
+  
+  .lose div {
+    margin-top: 100px;
+    font-size: 80px;
+    padding: 15px 30px 15px 30px;
+    background-color: transparent;
+    color: red;
+    border-radius: 20px;
+  }
+  
+  .lose button {
+    margin-bottom: 25px;
+    font-size: 26px;
+    padding: 12px 20px 12px 20px;
+    border-radius: 20px;
+  }
+  
+  .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
