@@ -1,6 +1,6 @@
 # Memory Game (Jujutsu Edition) 🎮⚡
 
-[![React](https://img.shields.io/badge/React-18.x-blue)](https://reactjs.org/)
+[![React](https://img.shields.io/badge/React-19.x-blue)](https://reactjs.org/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-10.x-purple)](https://www.framer.com/motion/)
 [![Tilt.js](https://img.shields.io/badge/Tilt.js-1.x-yellow)](https://github.com/gijsroge/tilt.js)
 [![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
