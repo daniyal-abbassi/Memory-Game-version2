@@ -1,12 +1,59 @@
-# React + Vite
+# Memory Game (Jujutsu Edition) 🎮⚡
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-18.x-blue)](https://reactjs.org/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-10.x-purple)](https://www.framer.com/motion/)
+[![Tilt.js](https://img.shields.io/badge/Tilt.js-1.x-yellow)](https://github.com/gijsroge/tilt.js)
+[![License](https://img.shields.io/badge/License-MIT-green)](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+> **Note**: This project is a modified version of [Alex DiShen's Memory Card Game](https://github.com/alex-dishen/memory-card). All original credit for the core game logic and structure goes to the original author
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🙏 Acknowledgments
 
-## Expanding the ESLint configuration
+> **Special thanks to**: [Alex DiShen's Memory Card Game](https://github.com/alex-dishen/memory-card) for the original game concept and architecture
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live URL 
+https://daniyal-abbassi.github.io/Memory-Game-version2/
+
+## ✨ Enhanced Features
+
+While maintaining the original game's excellent foundation, this version includes:
+
+### 🎨 Visual Upgrades
+- **All-new Jujutsu character cards**
+- **Changed some Framer Motion animations**
+
+
+### 🕹️ Gameplay Improvements
+- **Three difficulty modes**:
+  - Easy
+  - Medium
+  - Hard 
+- **Dynamic card shuffling algorithm**
+- **Smoothed transition animations**
+
+### 🛠️ Technical Upgrades
+- **Upgraded React version**
+- **Changed SASS to CSS structure**
+
+## 🖥️ Screenshots
+
+![Difficulty Screen](/public/jujutsu-2.png)
+![Cards Screen](/public/jujutsu.png)
+
+## 🚀 Technologies Used
+
+- **Frontend**: React 19
+- **Animation**: Framer Motion 
+- **Effects**: Tilt.js
+- **Styling**: CSS 
+- **State Management**: React hooks (useState, useEffect)
+
+## 🔍 Learning Highlights
+
+This project helped me master:
+
+- **Framer motion applying**
+- **Conditionals rendering**
+- **Card shuffle algorithms**
+- **Tilt integration with React**
+
